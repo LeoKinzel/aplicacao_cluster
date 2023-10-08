@@ -10,6 +10,7 @@ def isPrime(n):
 
     return n > 1;
 
-print("Eh primo:")
+if __name__ == "__main__":
+    print("Eh primo:")
 
-print(isPrime(12962962592588887))
+    print(isPrime(12962962592588887))
